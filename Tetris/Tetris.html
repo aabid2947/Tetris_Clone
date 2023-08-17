@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tetris</title>
+    <!-- <link rel="icon" type="image/png" href="image/Title.png">
+    <style>
+      #header-image{
+        display: block;
+        width: 1px;
+        height: auto;
+      }
+    </style> -->
+    <link rel="stylesheet" href="Tetris.css" />
+  </head>
+  <body>
+    <div id="contain">
+    <div id="front_panel">
+      <div id="Title"></div>
+      <br />
+      <button id="StartButton"></button>
+      <br />
+      <button id="Level">Level : 1</button>
+      <br />
+      <div id="high_scores">
+        <h3>High Scores</h3>
+        <hr />
+      </div>
+    </div>
+    </div>
+    <div id="main_container" style="display: none">
+      <div id="Score_Board" class="side_board">
+        <h2>Score</h2>
+        <div id="display_score" class="score_board"></div>
+        <h2>Level</h2>
+        <div id="display_level" class="score_board"></div>
+      </div>
+      <div id="container-outer">
+        <div id="container-inner">
+          <div id="mydiv"></div>
+        </div>
+      </div>
+      <div id="random_board" class="side_board">
+        <h2>&nbsp;&nbsp;Next</h2>
+        <div id="display_next_block"></div>
+      </div>
+    </div>
+    <br />
+
+    <div class="Button">
+      <button id="pause_button" style="display: none"></button>
+    </div>
+    <div class="Button">
+      <button id="resume_button" style="display: none"></button>
+    </div>
+    <script src="Tetris.js"></script>
+  </body>
+</html>
