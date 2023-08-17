@@ -5,4 +5,5 @@ Key Features:
 - Intuitive controls for moving, rotating, and dropping tetrominoes.
 - Score tracking and level progression.
 - Pause and resume functionality for a  gaming experience.
+- use enter key to rotate the tetrimonies and arrow keys to mive left and right.
 - Technologies: HTML,CSS and Javascript.
